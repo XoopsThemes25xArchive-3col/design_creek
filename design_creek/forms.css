@@ -1,0 +1,108 @@
+/* Thanks to Snow77, Skalpa and Leostotch for the initial work  */
+/* Mor.pho.GEN.e.sis version 1.1.2 by kris (http://www.xoofoo.org and http://www.frxoops.org) */
+/* file name : form.css (version 1.1.2) - 25 mars 2007 */
+
+/*======= Style pour les formulaires, boutons, zones de texte, ... ========*/
+
+.xo-block form {
+	margin:						0;
+	padding:						0;
+}
+#xo-content form {
+	margin:						0;
+	background:					transparent;
+}
+
+.xo-block .formButtons {
+	text-align:					center;
+	padding:						.5em;
+}
+
+label {
+	display:						block;
+	padding:						0;
+	background:					transparent;
+}
+.xo-formfield {
+	margin-bottom:				.2em;
+	background:					transparent;
+}
+.xo-formbuttons, .formButton, button {
+	color: 						#fff;
+	background-color: 		#4fb6e5;
+	font-size:					.9em;
+	border: 						1px solid #ccc;
+}
+.xo-formbuttons:hover, .formButton:hover, button:hover {
+	cursor:						pointer;
+	border: 						1px solid #999;
+	background: 				#40cb25;
+	color: 						#fff;
+}
+
+#xo-content .xo-formfield.required label:after {
+	content:						'*';
+	color:						#ff0000;
+	background-color: 		#fff;
+}
+select {
+	font-size: 					.9em;
+}
+select[name=timezone_offset] {
+	font-size:					.9em;
+}
+input[type=submit], input[type=reset], input[type=button] {
+	color: 						#fff;
+	background-color: 		#4fb6e5;
+	font-size:					.9em;
+	border: 						1px solid #ccc;
+}
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+	cursor:						pointer;
+	border: 						1px solid #999;
+	background: 				#40cb25;
+	color: 						#fff;
+}
+
+input[type=checkbox], textarea {
+	border:						1px solid #999;
+	margin:						2px 0;
+	padding-left:				.2em;
+	background-color:			#fff;
+}
+input[type=text]:hover, input[type=password]:hover, input[type=checkbox]:hover, textarea:hover {
+	border:						1px solid #333;
+	background-color:			#fff;
+}
+input[type=text], input[type=password] {
+	color:						#40cb25;
+	font-size: 					.9em;
+	border:						1px solid #999;
+	margin:						2px 0;
+	padding-left:				.2em;
+	background-color:			#fff;
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+	border-color:				#4fb6e5;
+	outline:						1px solid #4fb6e5;
+}
+textarea { width: 			95%;}
+label {font-weight: 			bold;}
+fieldset {
+	padding: 					1em;
+	line-height: 				1.6em;
+}
+fieldset a {
+	font-weight: 				bold;
+	color: 						#ff0000;
+	background-color: 		inherit;
+	text-transform: 			uppercase;
+}
+fieldset a:hover {
+	text-decoration: 			underline;
+}
+legend {
+	font-size: 					1.1em;
+	font-weight: 				bold;
+}
+
